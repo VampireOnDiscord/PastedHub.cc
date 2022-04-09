@@ -27,7 +27,7 @@ local Window = library:CreateWindow("PastedHub$$$", Vector2.new(492, 598), Enum.
 
 local Tab = Window:CreateTab("Cheats")
 
-local Sector = Tab:CreateSector("Universal", "left")
+local Sector = Tab:CreateSector("Exploits", "left")
 
 local Toggle = Sector:AddToggle("FullBright", true, function(val)
 if not _G.FullBrightExecuted then
