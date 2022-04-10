@@ -29,7 +29,7 @@ local Tab = Window:CreateTab("Cheats")
 
 local Sector = Tab:CreateSector("Exploits", "left")
 
-local Toggle = Sector:AddToggle("FullBright", false, function(val)
+local Toggle = Sector:AddToggle("FullBright", true, function(val)
 if not _G.FullBrightExecuted then
 
 	_G.FullBrightEnabled = false
@@ -138,7 +138,7 @@ _G.FullBrightExecuted = true
 _G.FullBrightEnabled = not _G.FullBrightEnabled
 end)
 
-local Toggle = Sector:AddToggle("Infinite Jump", false, function(val)
+local Toggle = Sector:AddToggle("Infinite Jump", true, function(val)
 local infjump = true
 game:GetService("UserInputService").JumpRequest:connect(function()
    if infjump then
