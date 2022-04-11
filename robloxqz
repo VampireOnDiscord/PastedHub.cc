@@ -3,7 +3,8 @@ Made by Smify#7175 (this cheat is Pasted)
 --]]
 
 ---------------------------------------------------
-print ("PastedHub Loading...")
+print ("PastedHub Loading... Please Wait Few Seconds")
+
 	getgenv().values = {}
 	local library = {} 
 
